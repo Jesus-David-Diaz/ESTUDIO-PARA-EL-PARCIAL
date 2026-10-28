@@ -69,6 +69,7 @@ int main() { //declaración de la función principal
         if (!tieneSimbolo) {
             cout << "La contraseña debe tener al menos un símbolo." << endl;
         }
+        cout << "Contraseña invalida";
     }
 
     return 0;
