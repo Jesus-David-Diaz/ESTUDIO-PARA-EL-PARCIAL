@@ -1,11 +1,13 @@
-#include <iostream>
-#include <string>
-#include <cctype>
-using namespace std;
-int main() {
-    char opcion;
-    int k;
-    string mensaje;
+#include <iostream> //Incluye la biblioteca de entrada y salida
+#include <string> //incluye la biblioteca de cadenas
+#include <cctype> //Incluye las funciones caracteres
+using namespace std; //evita escribir std:: antes de cada elemento de la biblio estándar
+int main() { //Declaración de la funcion principal
+    char opcion; //Declaramos una variable opción con el tipo de dato de caracter
+    int k; //Declaramos una variable de tipo entero, con el nombre k
+    string mensaje; //declaramos una variable de tipo string con el nombre de mensaje
+
+    
     //Lectura de la opcion (Cifrar/Descifrar) y del desplazamiento k
     cout << "Cifrar (C) o descifrar (D): ";
     cin >> opcion;
